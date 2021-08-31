@@ -34,13 +34,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'sudo docker-compose build'
+                sh 'docker-compose build'
                 echo 'Building..'
             }
         }
         stage('Test') {
             steps {
-                sh 'sudo docker-composr up'
+                sh 'docker-composr up'
                 echo 'Testing..'
             }
         }
