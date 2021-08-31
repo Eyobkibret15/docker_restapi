@@ -33,14 +33,22 @@ pipeline {
 
     stages {
         stage('Build') {
+         agent {
+                docker {
+                    image 'python:latest'
+                    // Run the container on the node specified at the top-level of the Pipeline, in the same workspace, rather than on a new node entirely:
+                    reuseNode true
+                }
+            }
             steps {
-                sh 'docker-compose build'
+
+                sh 'python --version'
                 echo 'Building..'
             }
         }
         stage('Test') {
             steps {
-                sh 'docker-composr up'
+                sh 'docker --version'
                 echo 'Testing..'
             }
         }
