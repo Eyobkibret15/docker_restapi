@@ -1,6 +1,6 @@
 library identifier: 'jenkins-shared@master', retriever: modernSCM(
  [$class: 'GitSCMSource',
-  remote: 'https://github.com/Eyobkibret15/docker_restapi.git',
+  remote: 'git@github.com:Eyobkibret15/docker_restapi.git',
  ])
 
 pipeline {
