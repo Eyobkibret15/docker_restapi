@@ -34,11 +34,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                sh docker-compose build
                 echo 'Building..'
             }
         }
         stage('Test') {
             steps {
+                sh docker-composr up
                 echo 'Testing..'
             }
         }
