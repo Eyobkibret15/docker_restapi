@@ -32,15 +32,15 @@ pipeline {
     agent any
 
     stages {
+
+     stage('Initialize'){
+        def dockerHome = tool 'myDocker'
+        env.PATH = "${dockerHome}/bin:${env.PATH}"
+    }
         stage('Build') {
-         agent {
-                docker {
-                    image 'python:latest'
-                    // Run the container on the node specified at the top-level of the Pipeline, in the same workspace, rather than on a new node entirely:
-                    reuseNode true
-                }
-            }
-            steps {
+
+
+                   steps {
 
                 sh 'python --version'
                 echo 'Building..'
