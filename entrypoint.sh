@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#if [ "$DATABASE" = "postgres" ]
+#if [ "$DATABASE" = "postgres"
 
 python3 manage.py collectstatic --no-input
 python3 manage.py makemigrations
