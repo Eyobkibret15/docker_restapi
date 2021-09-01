@@ -40,7 +40,7 @@ services:
       - web
   client:
     build: client/
-    command: python client/client.py
+    command: python client.py
     network_mode: host
     volumes:
       - ./client:/client
