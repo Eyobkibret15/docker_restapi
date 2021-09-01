@@ -1,23 +1,5 @@
 version: '3.9'
 services:
-  jenkins:
-    image: jenkins/jenkins:lts
-    container_name: jenkins-server
-    privileged: true
-    hostname: jenkinsserver
-    user: root
-    labels:
-      com.example.description: "Jenkins-Server by DigitalAvenue.dev"
-    ports:
-      - "8083:8080"
-      - "50000:50000"
-    networks:
-      jenkins_net:
-        aliases:
-          - jenkins_net
-    volumes:
-     - jenkins_data:/var/jenkins_home
-     - /var/run/docker.sock:/var/run/docker.sock
   web:
     build: .
     command:  gunicorn DjangoRestApi.wsgi:application --bind 0.0.0.0:8000
@@ -47,12 +29,6 @@ services:
     depends_on:
       -  web
       -  nginx
-      -  jenkins
-
 volumes:
 # web_django:
    static_volume:
-   jenkins_data:
-
-networks:
-  jenkins_net:

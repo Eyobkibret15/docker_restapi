@@ -28,29 +28,54 @@
 // }
 // }
 
+// pipeline {
+//     agent any
+//
+//     stages {
+//
+//         stage('Build') {
+//
+//
+//                    steps {
+//
+//                 sh 'python --version'
+//                 echo 'Building..'
+//             }
+//         }
+//         stage('Test') {
+//             steps {
+//                 sh 'docker --version'
+//                 echo 'Testing..'
+//             }
+//         }
+//         stage('Deploy') {
+//             steps {
+//                 echo 'Deploying....'
+//             }
+//         }
+//     }
+// }
+
+
 pipeline {
     agent any
 
     stages {
-
-        stage('Build') {
-
-
-                   steps {
-
-                sh 'python --version'
-                echo 'Building..'
+        stage('build') {
+            steps {
+                bat 'docker-compose build'
             }
         }
-        stage('Test') {
+        stage('test') {
             steps {
-                sh 'docker --version'
-                echo 'Testing..'
+                bat 'docker-compose up'
             }
         }
-        stage('Deploy') {
+
+
+        stage('deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Hello World'
             }
         }
     }
