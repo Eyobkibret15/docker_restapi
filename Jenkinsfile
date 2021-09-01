@@ -63,15 +63,14 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'docker-compose build'
+                sh 'docker-compose build'
             }
         }
         stage('test') {
             steps {
-                bat 'sudo docker-compose up'
+                sh 'sudo docker-compose up'
             }
         }
-
 
         stage('deploy') {
             steps {
