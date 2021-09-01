@@ -3,6 +3,8 @@ FROM python:alpine3.14
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
+USER root
+
 WORKDIR /app
 
 COPY ./requirements.txt .
