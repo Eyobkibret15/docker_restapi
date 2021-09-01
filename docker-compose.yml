@@ -47,7 +47,6 @@ services:
     depends_on:
       -  web
       -  nginx
-      -  jenkins
 
 volumes:
 # web_django:
