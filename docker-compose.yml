@@ -24,7 +24,7 @@ services:
     build:
       context: .
       network: host
-    command:  gunicorn DjangoRestApis.wsgi:application --bind 0.0.0.0:8000
+    command:  gunicorn DjangoRestApi.wsgi:application --bind 0.0.0.0:8000
 #    command: python3 manage.py runserver 0.0.0.0:8000
     volumes:
 #      - web_django:/app
