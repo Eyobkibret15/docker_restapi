@@ -23,10 +23,10 @@
 # fp.close()
 
 import requests
-# r = requests.get("http://192.168.1.40/admin/")
+r = requests.get("http://127.0.0.1:1111/api/")
 print("new 11111111111111111111111111111"
       "ftghfh"
       "fghgfhgjgj"
       "hgjhgjhgjg1")
-# print(r)
-# assert r.status_code == 200
+print(r)
+assert r.status_code == 200
