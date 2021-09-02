@@ -37,12 +37,12 @@ services:
     volumes:
       - static_volume:/app/static
     ports:
-      - 1111:80
+      - 1234:80
     depends_on:
       - web
   client:
     build: client/
-    command: python ./client.py
+    command: python client.py
     network_mode: host
     volumes:
       - ./client:/client
