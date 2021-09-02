@@ -87,6 +87,15 @@ def edit(request,pk):
         return Response(status=status.HTTP_406_NOT_ACCEPTABLE)
 
 
+@api_view(["GET"])
+def test(request):
+    if request.method == "GET":
+        data = country.objects.all()
+        serializer = countryserializer(data, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+
+
 #
 # @api_view(['GET', 'PUT', 'DELETE',"POST"])
 # def apply(request, pk):

@@ -1,0 +1,10 @@
+[run]
+omit=
+    */manage.py,
+    */DjangoRestApi/*,
+    */static/*,
+    */templates/*,
+    */data_load_script.sql,
+    */dumb.json,
+    */dumbdump/*,
+    */schema__create_script.sql
