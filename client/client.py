@@ -23,7 +23,7 @@
 # fp.close()
 
 import requests
-r = requests.get("http://127.0.0.1:1111/api/")
+r = requests.get("https://www.google.com/")
 print("new 11111111111111111111111111111"
       "ftghfh"
       "fghgfhgjgj"
