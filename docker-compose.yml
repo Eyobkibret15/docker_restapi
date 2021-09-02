@@ -24,7 +24,7 @@ services:
     build:
       context: .
       network: host
-    command:  gunicorn --chdir /var/jenkins_home/workspace/docker_restapi build.wsgi:application --bind 0.0.0.0:8000
+    command:  gunicorn --chdir DjangoRestApi DjangoRestApi.wsgi:application --bind 0.0.0.0:80 DjangoRestApi00
 #    command: python3 manage.py runserver 0.0.0.0:8000
     volumes:
 #      - web_django:/app
