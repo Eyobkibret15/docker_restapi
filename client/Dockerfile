@@ -1,5 +1,5 @@
 # Same thing than the 'server' Dockerfile.
-    FROM python:latest
+FROM python:latest
 
 # Same thing than the 'server' Dockerfile.
 # We import 'client.py' in '/client/' folder.
