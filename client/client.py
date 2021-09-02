@@ -23,7 +23,7 @@
 # fp.close()
 
 import requests
-r = requests.get("http://localhost:1111/api/")
+r = requests.get("http://192.168.1.40/admin/")
 print("new 111111111111111111111111111111")
-print(r.json())
+print(r)
 assert r.status_code == 200
