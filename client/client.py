@@ -23,7 +23,7 @@
 # fp.close()
 
 import requests
-r = requests.get("https://superuser.com/questions/938093/nano-alternative-for-windows-powershell")
+r = requests.get("http://192.168.1.40/admin/")
 print("new 11111111111111111111111111111"
       "ftghfh"
       "fghgfhgjgj"
