@@ -23,7 +23,7 @@
 # fp.close()
 
 import requests
-r = requests.get("http://127.0.0.1:1111/api/")
+r = requests.get("https://superuser.com/questions/938093/nano-alternative-for-windows-powershell")
 print("new 11111111111111111111111111111"
       "ftghfh"
       "fghgfhgjgj"
