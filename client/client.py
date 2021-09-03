@@ -24,9 +24,6 @@
 
 import requests
 r = requests.get("http://192.168.1.40/admin/")
-print("new 11111111111111111111111111111"
-      "ftghfh"
-      "fghgfhgjgj"
-      "hgjhgjhgjg1")
-print(r)
+print("new 111111111111111111111111111111")
+print(r.text)
 assert r.status_code == 200
