@@ -23,7 +23,7 @@
 # fp.close()
 
 import requests
-r = requests.get("http://localhost:1111/api/")
+r = requests.get("https://www.google.com/")
 print("new 111111111111111111111111111111")
-print(r.text)
+print(r)
 assert r.status_code == 200
