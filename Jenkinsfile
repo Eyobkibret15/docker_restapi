@@ -56,25 +56,23 @@
 //     }
 // }
 
-
 pipeline {
     agent any
 
     stages {
         stage('build') {
             steps {
-                sh 'docker-compose build'
+                echo 'Hello World'
+                sh """
+                sudo docker-compose build
+                """
             }
         }
         stage('test') {
             steps {
-                sh 'docker-compose up -d'
-            }
-        }
-
-        stage('deploy') {
-            steps {
-                echo 'Hello World'
+                sh """
+                sudo docker-compose -d up
+                """
             }
         }
     }
