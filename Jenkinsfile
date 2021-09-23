@@ -4,9 +4,9 @@ pipeline {
     stages {
   stage('Checkout external proj') {
         steps {
-            git branch: 'my_specific_branch',
-                credentialsId: 'my_cred_id',
-                url: 'ssh://git@test.com/proj/test_proj.git'
+            git branch: 'master',
+                credentialsId: 'api',
+                url: 'git@github.com:Eyobkibret15/docker_restapi.git'
             sh "ls"
         }
     }
