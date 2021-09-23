@@ -7,7 +7,7 @@ pipeline {
             git branch: 'master',
                 credentialsId: 'api',
                 url: 'git@github.com:Eyobkibret15/docker_restapi.git'
-            sh "ls"
+            bat "dir"
         }
     }
         stage('build') {
