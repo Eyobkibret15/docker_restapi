@@ -33,7 +33,7 @@ services:
     expose:
       - 8000
     environment:
-      - DEBUG="1"
+      - DEBUG=${DEBUG}
 
   nginx:
     build: ./nginx
