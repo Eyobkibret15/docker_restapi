@@ -1,2 +1,3 @@
 import os
-print (os.environ['JENKINS_HOME'])
+DEBUG = int(os.environ['DEBUG'])
+print(DEBUG)
