@@ -1,2 +1,2 @@
 import os
-print (os.environ{DEBUG})
+print (os.environ['DEBUG'])
