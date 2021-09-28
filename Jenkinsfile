@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                env.DEBUG= "${DEBUG}"
                 echo 'Hello World'
             }
         }
