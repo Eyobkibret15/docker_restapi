@@ -7,6 +7,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Hello World'
+                sh   'python key.py'
             }
         }
         stage('test') {
