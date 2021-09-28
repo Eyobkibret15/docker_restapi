@@ -1,10 +1,11 @@
 pipeline {
     agent any
-
+    environment {
+        DEBUG = "1"
+}
     stages {
         stage('build') {
             steps {
-                env.DEBUG= "${DEBUG}"
                 echo 'Hello World'
             }
         }
