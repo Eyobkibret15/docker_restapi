@@ -10,3 +10,5 @@ urlpatterns = [path("", home, name="home"),
 # path('ex/', example_view, name="home"),
 
 #
+
+#
