@@ -8,3 +8,5 @@ urlpatterns = [path("", home, name="home"),
 # path('apply/<str:pk>/', apply, name="apply"),
 # path('values/', values, name="home"),
 # path('ex/', example_view, name="home"),
+
+#

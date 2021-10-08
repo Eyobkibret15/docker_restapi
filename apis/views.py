@@ -1,6 +1,6 @@
-from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
+from rest_framework.parsers import JSONParser
 from rest_framework.authentication import (
     SessionAuthentication,
     BasicAuthentication,
@@ -32,21 +32,24 @@ from rest_framework.response import Response
 #     return Response(content)
 #
 
+from django.views.decorators.csrf import csrf_exempt
 
-@api_view(["GET", "POST"])
+
+@api_view(["GET","POST"])
+@csrf_exempt
 def home(request):
     if request.method == "GET":
         data = country.objects.all()
         serializer = countryserializer(data, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
-    elif request.method == "POST":
-        serializer = countryserializer(data=request.data)
+
+    elif request.method == 'POST':
+        data = JSONParser().parse(request)
+        serializer = countryserializer(data=data)
         if serializer.is_valid():
             serializer.save()
-            return Response(serializer.data, status=201)
-        return Response(serializer.errors, status=400)
-
-
+            return JsonResponse(serializer.data, status=201)
+        return JsonResponse(serializer.errors, status=400)
 # @api_view(["GET","POST"])
 # def values(request):
 #     if request.method == "GET":
@@ -59,7 +62,6 @@ def home(request):
 #             serializer.save()
 #             return Response(serializer.data, status=201)
 #         return Response(serializer.errors, status=400)
-
 
 @api_view(["GET","PUT","POST"])
 def edit(request,pk):
@@ -86,15 +88,12 @@ def edit(request,pk):
     else:
         return Response(status=status.HTTP_406_NOT_ACCEPTABLE)
 
-
 @api_view(["GET"])
 def test(request):
     if request.method == "GET":
         data = country.objects.all()
         serializer = countryserializer(data, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
-
-
 
 #
 # @api_view(['GET', 'PUT', 'DELETE',"POST"])

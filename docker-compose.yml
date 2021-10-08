@@ -34,6 +34,8 @@ services:
       - 8000
     environment:
       - DEBUG=${DEBUG}
+    env_file:
+      - .env
 
   nginx:
     build: ./nginx
@@ -43,15 +45,6 @@ services:
       - 1244:80
     depends_on:
       - web
-  client:
-    build: client/
-    command: python client.py
-    network_mode: host
-    volumes:
-      - ./client:/client
-    depends_on:
-      -  web
-      -  nginx
 
 volumes:
 # web_django:
