@@ -5,6 +5,4 @@ from django.datetime
 
 
 today = datetime.now().date()
-tomorrow = today + timedelta(1)
-print(today_start)
-
+tomorrow = today + timed
