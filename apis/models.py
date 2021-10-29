@@ -14,7 +14,7 @@ class country(models.Model):
 class city(models.Model):
     city = models.TextField()
     level = models.TextField()
-    country = models.ForeignKey(country, related_name="citys", on_delete=models.CASCADE)
+    country = models.ForeignKey(country, related_name="citys", on_delete=models.CASCADE,blank=True,null=True)
 
     def __str__(self):
         return self.city

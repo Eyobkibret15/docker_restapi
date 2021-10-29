@@ -14,23 +14,23 @@ class hotelserializer(ModelSerializer):
     #     rep = super(hotelserializer, self).to_representation(instance)
     #     rep["city"] = instance.city.city
     #     return rep
+class countryserializer(ModelSerializer):
+     # citys = serializers.StringRelatedField(many=True)
+    class Meta:
+        model = country
+        fields = '__all__'
+
 
 class cityserializer(ModelSerializer):
     # values = RelatedFieldAlternative(queryset=value.objects.all(), serializer=valueserializers)
-    hotels = hotelserializer(read_only=True)
+    # hotels = hotelserializer(read_only=True)
     # hotels = serializers.StringRelatedField(many=True)
+    country = countryserializer(many=True)
     class Meta:
         model = city
-        fields = ["city","level","country","hotels"]
-
+        fields = '__all__'
     # def to_representation(self, instance):
     #     rep = super(cityserializer, self).to_representation(instance)
     #     rep["country"] = instance.country.country
     #     return rep
 
-class countryserializer(ModelSerializer):
-    citys = cityserializer(many=True, read_only=True)
-    # citys = serializers.StringRelatedField(many=True)
-    class Meta:
-        model = country
-        fields = ["country","citys"]

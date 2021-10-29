@@ -44,8 +44,8 @@ def home(request):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     elif request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = countryserializer(data=data)
+
+        serializer = cityserializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
             return JsonResponse(serializer.data, status=201)
@@ -64,27 +64,31 @@ def home(request):
 #         return Response(serializer.errors, status=400)
 
 @api_view(["GET","PUT","POST"])
-def edit(request,pk):
+def edit(request):
     if request.method == "POST":
-        serializer = countryserializer(data=request.data)
+        cd = country.objects.get(country='eth')
+        request.data['country'] = cd
+        serializer = cityserializer(data=request.data)
+        print("00000000000000")
         if serializer.is_valid():
+            print("00000000000000000")
             serializer.save()
-            return  Response(serializer.data , status=status.HTTP_201_CREATED)
+            citys = city.objects.create(**request.data)
+            return  Response(serializer.errors , status=status.HTTP_201_CREATED)
         else:
            return Response(serializer.errors ,status=status.HTTP_400_BAD_REQUEST)
-    elif request.method == "PUT":
-        pro = country.objects.get(id=pk)
-        serializer = countryserializer(pro, data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return  Response(serializer.data , status=status.HTTP_202_ACCEPTED)
-        else:
-            return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
+    # elif request.method == "PUT":
+    #     pro = country.objects.get(id=pk)
+    #     serializer = countryserializer(pro, data=request.data)
+    #     if serializer.is_valid():
+    #         serializer.save()
+    #         return  Response(serializer.data , status=status.HTTP_202_ACCEPTED)
+    #     else:
+    #         return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
     elif request.method == "GET":
-        pro = country.objects.get(id=pk)
-        serializer = countryserializer(pro)
+        pro = country.objects.all()
+        serializer = countryserializer(pro,many=True)
         return Response(serializer.data,  status=status.HTTP_200_OK)
-
     else:
         return Response(status=status.HTTP_406_NOT_ACCEPTABLE)
 

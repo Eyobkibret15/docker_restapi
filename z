@@ -1,0 +1,271 @@
+[33mcommit 9b35a287324bc103e3ef4958cc184d76da3bbb49[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: 2.5[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Eyob Kibret <eyob.kibret@northvolt.pl>
+Date:   Tue Oct 12 14:30:47 2021 +0200
+
+    test pass
+    bug
+    fix
+    many
+
+[33mcommit 89d1fdb1d82454fdb798cd3948ad80c54bef2436[m
+Author: Eyob Kibret <eyob.kibret@northvolt.pl>
+Date:   Tue Oct 12 14:28:47 2021 +0200
+
+    Subject
+    
+    title
+    Problem
+    fix
+    Solution
+    
+    order
+    Note
+    
+    no note
+
+[33mcommit 97ade1883c5d69421067ca5c6668e05b0a7f660e[m
+Author: Eyob Kibret <eyob.kibret@northvolt.pl>
+Date:   Tue Oct 12 14:16:13 2021 +0200
+
+     please enter the commit message for your changes. Lines starting
+
+[33mcommit 150dd38a0c502f2d26a99c4152b5f40856948d74[m
+Author: Eyob Kibret <eyob.kibret@northvolt.pl>
+Date:   Tue Oct 12 14:14:50 2021 +0200
+
+    fglmkjfhnlkfhflkndhnmfldhhggfhfg
+    fghgfhgffffffffffffffffffffffffffffffffffffff
+    
+    fghgf
+    fghgfh
+    gfh
+    
+    gfhgfh
+    gfdh
+    
+    gfhgfhfgh
+    
+    gfhfgh
+
+[33mcommit 5be2193a74e071fb619d1235366429e0dbc25cd4[m
+Author: Eyob Kibret <eyob.kibret@northvolt.pl>
+Date:   Tue Oct 12 14:11:20 2021 +0200
+
+    fdngkdfg
+    
+    fdgfdgfdgfdgdfgfdgfdgfdgfdgd
+    fdgfdgfd
+    fgfdggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    g
+
+[33mcommit c6865c634b1de57f8b977ae7a2997e5ee6efdb69[m
+Author: Eyob Kibret <eyob.kibret@northvolt.pl>
+Date:   Tue Oct 12 14:03:00 2021 +0200
+
+    title test1
+    
+    here we can specifi all thing
+    dfdsf
+
+[33mcommit abac3805e7ef35d3a39456543e8355ccc9a8a2db[m[33m ([m[1;33mtag: 2.3[m[33m)[m
+Author: EyobKibret <eyob.kibret15@northvolt.pl>
+Date:   Fri Oct 8 08:19:39 2021 +0200
+
+    final
+
+[33mcommit 1f7c33f721eab50180517d7c71aa76bdfa0084af[m[33m ([m[1;33mtag: 2.2[m[33m, [m[1;33mtag: 2.1[m[33m)[m
+Author: EyobKibret <eyob.kibret15@northvolt.pl>
+Date:   Fri Oct 8 08:14:22 2021 +0200
+
+    fghfghfgh
+
+[33mcommit 649da3fadbb01446b5734de6b1db156fa8744344[m[33m ([m[1;33mtag: 2.0[m[33m)[m
+Author: EyobKibret <eyob.kibret15@northvolt.pl>
+Date:   Tue Sep 28 12:11:45 2021 +0200
+
+    add 1
+
+[33mcommit 74f1a0d84d3e798cc87036a109bd0153df728f8f[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 12:06:57 2021 +0200
+
+    Update key.py
+
+[33mcommit 14899e8efc0754c9acd5481f8763729c2a08e841[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 11:12:14 2021 +0200
+
+    Update docker-compose.yml
+
+[33mcommit bdde69f2714d2f70affb6708c3434838abc56ac0[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 11:11:34 2021 +0200
+
+    Update docker-compose.yml
+
+[33mcommit ec895de92707cd4ae253e51708a2b03b346a4dff[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:55:52 2021 +0200
+
+    Update key.py
+
+[33mcommit e63f11e21a6e8ee64eb5e717d9ec393af973ed55[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:41:22 2021 +0200
+
+    Update key.py
+
+[33mcommit 1c417e3ed8cf345f71ea96ea62e4f2304e9c3a30[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:40:45 2021 +0200
+
+    Update key.py
+
+[33mcommit 8d85f95568e683194b880c3e750e58a90b97a961[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:34:18 2021 +0200
+
+    Update key.py
+
+[33mcommit edd4ba1f7b12a2868b8440b77cd9d09bb3f2b931[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:33:09 2021 +0200
+
+    Update key.py
+
+[33mcommit 798b9af6e54ec8618345cb60fd756adf9273fe55[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:31:48 2021 +0200
+
+    Update Jenkinsfile
+
+[33mcommit 5522b826ac70bce9cc1cc1e457e70af2e271b812[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:31:15 2021 +0200
+
+    Create key.py
+
+[33mcommit d8226866bcd455a0e6672ee66bfc61eb28de951e[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:21:51 2021 +0200
+
+    Update Jenkinsfile
+
+[33mcommit d6d16a5f8f741a8f73aa8768786c5cf5e459c7d0[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:14:00 2021 +0200
+
+    Update Jenkinsfile
+
+[33mcommit f7d800921ae5ebbf7ffd17cc8236fcbcb7aa74bc[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:05:32 2021 +0200
+
+    Update .env
+
+[33mcommit 7edbc92f2cb8f597143a011200b25862cda8683b[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:05:09 2021 +0200
+
+    Update settings.py
+
+[33mcommit 68497c634c775bfced32eaebf21454a14a42fa39[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 28 10:01:11 2021 +0200
+
+    Update Jenkinsfile
+
+[33mcommit e6a3530c49ede1c8145a803d2a80cd8727e09aa4[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Thu Sep 23 08:32:43 2021 +0200
+
+    Update Jenkinsfile
+
+[33mcommit c0d44718583ec5c9e3c73694d745a00466953322[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Thu Sep 23 08:32:08 2021 +0200
+
+    Update Jenkinsfile
+
+[33mcommit d7f9d7b4a75b6e86095b0be697d6cafcd7444601[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Thu Sep 23 08:27:23 2021 +0200
+
+    Update Jenkinsfile
+
+[33mcommit 44779ba6fee057624d707e5a1ec237defaffe751[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Thu Sep 23 08:26:41 2021 +0200
+
+    Update Jenkinsfile
+
+[33mcommit cf79c0741e032c2c9733dbd4619a57bbdedfc60f[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Thu Sep 23 08:17:49 2021 +0200
+
+    Update Jenkinsfile
+
+[33mcommit b2a38cc1b92b6d78f6ea0bdfea9080771c8b2a15[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Tue Sep 21 11:11:55 2021 +0200
+
+    Update Dockerfile
+
+[33mcommit 4a5050777223bec8fb820c6103ea2c846777185d[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Mon Sep 20 15:41:47 2021 +0200
+
+    Update Jenkinsfile
+
+[33mcommit f2646d6d0200b164a932a7e1d389546c72fba5bf[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Sun Sep 5 16:57:10 2021 +0200
+
+    Update client.py
+
+[33mcommit 441064c906e60f4bea2435bd0192b2a9cef9bddb[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Sun Sep 5 11:56:02 2021 +0200
+
+    Update client.py
+
+[33mcommit 3065ba06e52880dc63a6fdb7a8866e79fa90b853[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Fri Sep 3 14:42:51 2021 +0200
+
+    Update client.py
+
+[33mcommit 1bb1c45c56f6ae8714a537882c01b3a10fb08fbc[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Fri Sep 3 11:56:12 2021 +0200
+
+    Update client.py
+
+[33mcommit 1ebbeef4528f4958b5efa9ac4de2af2831068951[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Fri Sep 3 11:53:58 2021 +0200
+
+    Update client.py
+
+[33mcommit 4bd1a2c510a1f007ae56e1cddaabec4b007373ea[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Thu Sep 2 21:03:51 2021 +0200
+
+    Update docker-compose.yml
+
+[33mcommit fb72263f21cf488c39ac49d6be23cfc11279c14b[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Thu Sep 2 21:01:40 2021 +0200
+
+    Update docker-compose.yml
+
+[33mcommit 2b7d1cb34593a53878b23899fa057ed3207b8084[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:   Thu Sep 2 20:59:09 2021 +0200
+
+    Update docker-compose.yml
+
+[33mcommit da6aa9c96553d2c695a1497f1f18ac2880ff4cc2[m
+Author: Eyob Kibret <64076953+Eyobkibret15@users.noreply.github.com>
+Date:
